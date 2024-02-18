@@ -1,0 +1,41 @@
+{
+    "gpt3": {
+        "model": "gpt-3.5-turbo-1106",
+        "api_key": "sk-XXX"
+    },
+    "gpt4": {
+        "model": "gpt-4-0125-preview",
+        "api_key": "sk-XXX"
+    },
+    "gemini": {
+        "model": "gemini-pro",
+        "api_key": "AIzaSyCw-XXX-XXX",
+        "api_type": "google"
+    },
+    "codellama-70b": {
+        "model": "codellama/CodeLlama-70b-Python-hf",
+        "base_url": "https://api.together.xyz/v1",        
+        "api_key": "tg-XXXX"
+    },
+    "qwen1.5-4b": {
+        "model": "Qwen/Qwen1.5-4B",
+        "base_url": "https://api.together.xyz/v1",
+        "api_key": "tg-XXXX"
+    },
+    "mistral-7b": {
+        "model": "mistralai/Mistral-7B-Instruct-v0.2",
+        "base_url": "https://api.together.xyz/v1",
+        "api_key": "tg-XXXX"
+    },
+    "mixtral-8x7b": {
+        "model": "mistralai/Mixtral-8x7B-v0.1",
+        "base_url": "https://api.together.xyz/v1",
+        "api_key": "tg-XXXX"
+    },
+    "openhermes": {
+        "model": "teknium_openhermes-2.5-mistral-7b",
+        "base_url": "http://host.docker.internal:82/v1",
+        "api_type": "open_ai",
+        "api_key": "local-XXX"
+    }
+}
